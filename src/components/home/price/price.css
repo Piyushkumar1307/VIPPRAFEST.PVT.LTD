@@ -1,0 +1,82 @@
+.price {
+  text-align: center;
+}
+
+.price .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.price .box {
+  width: 31.5%;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.price .box .price-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.price .box .plan-title {
+  font-size: 22px;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.price .box .ptext {
+  color: grey;
+  margin-bottom: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.price .box:hover {
+  background-color: #122947;
+}
+
+.price .box:hover .ptext {
+  opacity: 1;
+  color: white;
+}
+
+.price .box:hover .plan-title {
+  color: white;
+}
+
+.price button {
+  margin-bottom: 20px;
+}
+
+.price ul {
+  margin-top: 40px;
+}
+
+.price ul li {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.price label {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .price .content .box {
+    width: 100%;
+  }
+}
