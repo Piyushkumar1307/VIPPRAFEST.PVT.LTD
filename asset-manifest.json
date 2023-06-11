@@ -1,11 +1,16 @@
 {
   "files": {
     "main.css": "/vip/static/css/main.fa2aa24b.css",
-    "main.js": "/vip/static/js/main.6899db21.js",
+    "main.js": "/vip/static/js/main.2b3c3fa7.js",
+    "static/media/pr2.png": "/vip/static/media/pr2.10f5e83870afdcf4771e.png",
     "static/media/privacy.png": "/vip/static/media/privacy.0d421b70e4cbfd4a7bbd.png",
+    "static/media/pr1.png": "/vip/static/media/pr1.4d09d327f15ccd4d8474.png",
     "static/media/banner.png": "/vip/static/media/banner.b7ba5f00dd735049652f.png",
     "static/media/abimg2.png": "/vip/static/media/abimg2.32b30aec33743530829c.png",
     "static/media/abimg1.png": "/vip/static/media/abimg1.f1acd05d8d8b954e808e.png",
+    "static/media/pr3.png": "/vip/static/media/pr3.c12121ec9c32e5982021.png",
+    "static/media/city-5.png": "/vip/static/media/city-5.58478a3ebd517a9d3292.png",
+    "static/media/city-4.png": "/vip/static/media/city-4.c8be1af763d0202c7002.png",
     "static/media/batman.jpeg": "/vip/static/media/batman.1194155df056b27dac45.jpeg",
     "static/media/overlay.png": "/vip/static/media/overlay.11a4b24941212aa8c4fd.png",
     "static/media/h1.png": "/vip/static/media/h1.39627af04b11bb28d173.png",
@@ -19,10 +24,10 @@
     "static/media/team-3.jpg": "/vip/static/media/team-3.d756f7d8797e12d13f0d.jpg",
     "index.html": "/vip/index.html",
     "main.fa2aa24b.css.map": "/vip/static/css/main.fa2aa24b.css.map",
-    "main.6899db21.js.map": "/vip/static/js/main.6899db21.js.map"
+    "main.2b3c3fa7.js.map": "/vip/static/js/main.2b3c3fa7.js.map"
   },
   "entrypoints": [
     "static/css/main.fa2aa24b.css",
-    "static/js/main.6899db21.js"
+    "static/js/main.2b3c3fa7.js"
   ]
 }
