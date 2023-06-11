@@ -27,7 +27,7 @@ const PriceCard = () => {
     <>
       <section className="price background">
         <div className="container">
-          <Heading title={<span className="title">Our Pricing</span>} subtitle="Flexible and Affordable Plans" />
+          <Heading title={<span className="title"></span>} subtitle="" />
 
           <div className="content flex mtop">
             {priceData.map((item, index) => (

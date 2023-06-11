@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  background-image: url("../../../images/banner.png");
+  background-image: url("../../image/banner.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -42,7 +42,7 @@
   left: 40%;
   width: 50%;
   height: 110%;
-  background-image: url("../../../images/overlay.png");
+  background-image: url("../../image/overlay.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

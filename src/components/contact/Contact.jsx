@@ -37,10 +37,10 @@ const Contact = () => {
           <form className="shadow" ref={form} onSubmit={sendEmail}>
             <h4>Fill up The Form</h4> <br />
             <div>
-              <input type="text" name="from_name" placeholder="Name" />
-              <input type="email" name="from_email" placeholder="Email" />
+              <textarea name="from_name" placeholder="Name" />
+              <textarea name="from_email" placeholder="Email" />
             </div>
-            <input type="text" name="subject" placeholder="Subject" />
+            <textarea name="subject" placeholder="Subject"></textarea>
             <textarea name="message" cols="30" rows="10"></textarea>
             <button type="submit">Submit</button>
           </form>

@@ -2,6 +2,9 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import Heading from "../../common/Heading";
 import { location } from "../../data/Data";
+import city1Image from "../../image/city-5.png";
+import city2Image from "../../image/city-4.png";
+import city3Image from "../../image/city-4.png";
 import "./style.css";
 
 const Location = () => {
@@ -24,7 +27,9 @@ const Location = () => {
           <div className="content grid3 mtop">
             {location.map((item, index) => (
               <div className="box" key={index}>
-                <img src={item.cover} alt="" />
+                {item.id === 1 && <img src={city1Image} alt="" />}
+                {item.id === 2 && <img src={city2Image} alt="" />}
+                {item.id === 3 && <img src={city3Image} alt="" />}
                 <div className="location-overlay">
                   <h5>{item.name}</h5>
                   <p>
