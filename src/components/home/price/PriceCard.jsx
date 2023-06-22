@@ -1,24 +1,28 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import Heading from "../../common/Heading";
 import price1Image from "../../image/batman.jpeg";
+import price2Image from "../../image/batman.jpeg";
 import "./price.css";
 
 const PriceCard = () => {
+  const history = useHistory();
+
+  const handleImageClick = () => {
+    // Redirect to members page
+    history.push("/pricing");
+  };
+
   const priceData = [
     {
-      plan: "Basic",
+      plan: "Vijay Kumar Singh",
       ptext: "per user, per month",
       image: price1Image,
     },
     {
-      plan: "Standard",
+      plan: "Pawan Kumar",
       ptext: "per user, per month",
-      image: price1Image,
-    },
-    {
-      plan: "Platinum",
-      ptext: "2 user, per month",
-      image: price1Image,
+      image: price2Image,
     },
     
   ];
@@ -31,7 +35,7 @@ const PriceCard = () => {
 
           <div className="content flex mtop">
             {priceData.map((item, index) => (
-              <div className="box shadow" key={index}>
+              <div className="box shadow" key={index} onClick={handleImageClick}>
                 <img src={item.image} alt={item.plan} className="price-image" />
                 <h3 className="plan-title">{item.plan}</h3>
                 <p className="ptext">{item.ptext}</p>

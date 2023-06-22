@@ -1,18 +1,33 @@
 .contact form div {
   display: flex;
+  gap: 10px; /* Add a gap between the input fields */
 }
 
-.contact textarea {
+.contact .container {
+  margin-top: 20px; /* Add margin to create space between sections */
+}
+
+.contact h4 {
+  width: 100%;
+  margin-bottom: 10px; /* Reduce the margin-bottom to create space */
+  word-break: break-word; /* Allow long titles to wrap onto multiple lines */
+}
+
+.contact textarea,
+.contact input {
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 100%;
   border-radius: 5px;
   margin-bottom: 20px;
+  padding: 10px; /* Add padding for better spacing */
 }
 
-.contact input {
-  margin-bottom: 20px;
-  margin-right: 10px;
+.contact h4 {
+  width: 100%;
+  margin-bottom: 10px; /* Reduce the margin-bottom to create space */
+  word-break: break-word; /* Allow long titles to wrap onto multiple lines */
 }
+
 
 .contact form {
   padding: 30px;
@@ -43,6 +58,7 @@
   }
   .contact form div {
     flex-direction: column;
+    gap: 0; /* Remove the gap between the input fields on smaller screens */
   }
   .contact input {
     width: 100%;

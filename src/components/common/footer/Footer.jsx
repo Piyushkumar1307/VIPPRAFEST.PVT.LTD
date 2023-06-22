@@ -113,12 +113,12 @@ const Footer = () => {
       <div className="legal">
         <span>
           2023{' '}
-          <a href="https://example.com" target="_blank" rel="noopener noreferrer">
+          <a href="" target="_blank" rel="noopener noreferrer">
             <span style={{ color: '#ffffff' }}>VIPPRAFEST</span>
           </a>
           . By{' '}
-          <a href="https://tretacompany.com" target="_blank" rel="noopener noreferrer">
-            <span style={{ color: '#ffffff' }}>Treta Company</span>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <span style={{ color: '#ffffff' }}>Treta Development</span>
           </a>
         </span>
       </div>

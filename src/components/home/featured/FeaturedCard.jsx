@@ -1,5 +1,4 @@
 import React from "react";
-import Heading from "../../common/Heading";
 import featured1Image from "../../image/h1.png";
 import featured2Image from "../../image/h2.png";
 import featured3Image from "../../image/h3.png";
@@ -11,27 +10,27 @@ const FeaturedCard = ({ onClick }) => {
     {
       cover: featured1Image,
       name: "House Construction",
-      total: "122 Property",
+      total: "",
     },
     {
       cover: featured2Image,
       name: "Road Construction",
-      total: "155 Property",
+      total: "",
     },
     {
       cover: featured3Image,
       name: "Railway Construction",
-      total: "300 Property",
+      total: "",
     },
     {
       cover: featured4Image,
       name: "School Construction",
-      total: "80 Property",
+      total: "",
     },
     {
       cover: featured5Image,
       name: "Mall Construction",
-      total: "80 Property",
+      total: "",
     },
   ];
 

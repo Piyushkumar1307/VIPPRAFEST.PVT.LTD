@@ -32,13 +32,13 @@ const Contact = () => {
   return (
     <>
       <section className="contact mb">
-        <Back name="Contact Us" title="Tell Us your Query?" cover={img} />
+        <Back name="Contact Us" title="" cover={img} />
         <div className="container">
           <form className="shadow" ref={form} onSubmit={sendEmail}>
             <h4>Fill up The Form</h4> <br />
             <div>
-              <textarea name="from_name" placeholder="Name" />
-              <textarea name="from_email" placeholder="Email" />
+              <input type="text" name="from_name" placeholder="Name" />
+              <input type="text" name="from_email" placeholder="Email" />
             </div>
             <textarea name="subject" placeholder="Subject"></textarea>
             <textarea name="message" cols="30" rows="10"></textarea>

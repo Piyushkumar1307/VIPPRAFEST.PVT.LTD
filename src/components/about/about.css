@@ -5,7 +5,11 @@
 .about .heading {
   text-align: left;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.about .heading h2 {
+  font-size: 20px; /* Adjust the font size of the title */
 }
 
 .about p {
@@ -34,14 +38,17 @@
   color: #000000;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 750px) {
   .about .container {
     flex-direction: column;
   }
-  .about p {
-    padding: 0;
-  }
   .about .container img {
     margin-top: 50px;
+  }
+  .about p {
+    padding-right: 0;
+  }
+  .about .heading h2 {
+    font-size: 15px; /* Adjust the font size of the title for smaller screens */
   }
 }
